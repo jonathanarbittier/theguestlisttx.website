@@ -40,8 +40,7 @@ button, input, select { font: inherit; }
 .nav-cta svg, .button svg, .form-submit svg, .text-link svg, .event-list svg { width: 18px; height: 18px; transition: transform .25s; }
 .nav-cta:hover svg, .button:hover svg, .form-submit:hover svg, .event-list a:hover svg { transform: translateX(4px); }
 .hero-content { position: relative; z-index: 2; height: 100%; display: flex; justify-content: center; align-items: flex-start; flex-direction: column; padding-top: 92px; }
-.eyebrow, .section-kicker { display: flex; align-items: center; gap: 12px; color: var(--gold-light); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .22em; }
-.eyebrow > span { width: 30px; height: 1px; background: currentColor; }
+.section-kicker { display: flex; align-items: center; gap: 12px; color: var(--gold-light); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .22em; }
 .hero h1 { margin: 26px 0 23px; max-width: 900px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(58px, 6.65vw, 108px); font-weight: 400; line-height: .91; letter-spacing: -.052em; }
 h1 em, h2 em { color: var(--gold-light); font-weight: 400; }
 .hero-content > p { max-width: 485px; margin: 0; color: rgba(255,255,255,.77); font-size: 16px; line-height: 1.65; }

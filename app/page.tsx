@@ -41,7 +41,6 @@ export default function Home() {
         </nav>
 
         <div className="hero-content shell">
-          <div className="eyebrow"><span /> Waco, Texas & beyond</div>
           <h1>Not your average<br /><em>photo booth.</em></h1>
           <p>Luxury, customizable photo booth experiences made for events worth remembering.</p>
           <div className="hero-actions">
