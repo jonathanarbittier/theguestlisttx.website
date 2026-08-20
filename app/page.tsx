@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main>
       <section className="hero" id="top">
-        <Image className="hero-image" src="/guest-list-hero.png" alt="Friends enjoying a modern photo booth at an elegant event" fill priority sizes="100vw" />
+        <Image className="hero-image" src="/guest-list-hero.jpg" alt="Friends enjoying a modern photo booth at an elegant event" fill priority sizes="100vw" />
         <div className="hero-shade" />
         <nav className="nav shell" aria-label="Main navigation">
           <a className="brand" href="#top" aria-label="The Guest List home">
@@ -72,7 +72,7 @@ export default function Home() {
 
         <div className="experience-showcase">
           <div className="experience-setup">
-            <Image src="/complete-booth-setup.png" alt="The complete Guest List photo booth setup with an ivory backdrop and floral styling" fill sizes="(max-width: 900px) 100vw, 40vw" />
+            <Image src="/complete-booth-setup.jpg" alt="The complete Guest List photo booth setup with an ivory backdrop and floral styling" fill sizes="(max-width: 900px) 100vw, 40vw" />
             <div className="setup-shade" />
             <div className="setup-caption">
               <span>Arrives event-ready</span>
@@ -97,7 +97,7 @@ export default function Home() {
 
       <section className="events-section" id="events">
         <div className="events-visual">
-          <Image src="/event-sharing.png" alt="Friends laughing as they receive their photo booth image" fill sizes="(max-width: 800px) 100vw, 50vw" />
+          <Image src="/event-sharing.jpg" alt="Friends laughing as they receive their photo booth image" fill sizes="(max-width: 800px) 100vw, 50vw" />
           <div className="events-visual-copy">
             <span>Good times look<br />good on you.</span>
           </div>
@@ -122,9 +122,9 @@ export default function Home() {
           <p>Real smiles. Unscripted moments. Photos your guests will actually want to keep.</p>
         </div>
         <div className="gallery-grid">
-          <figure className="gallery-one"><Image src="/gallery-confetti.png" alt="Four friends laughing beneath a burst of gold confetti" fill sizes="(max-width: 600px) 100vw, 40vw" /></figure>
-          <figure className="gallery-two"><Image src="/gallery-booth-detail.png" alt="A guest using the illuminated photo booth touchscreen" fill sizes="(max-width: 600px) 50vw, 30vw" /></figure>
-          <figure className="gallery-three"><Image src="/gallery-friends.png" alt="Two friends sharing a joyful photo booth pose" fill sizes="(max-width: 600px) 50vw, 30vw" /></figure>
+          <figure className="gallery-one"><Image src="/gallery-confetti.jpg" alt="Four friends laughing beneath a burst of gold confetti" fill sizes="(max-width: 600px) 100vw, 40vw" /></figure>
+          <figure className="gallery-two"><Image src="/gallery-booth-detail.jpg" alt="A guest using the illuminated photo booth touchscreen" fill sizes="(max-width: 600px) 50vw, 30vw" /></figure>
+          <figure className="gallery-three"><Image src="/gallery-friends.jpg" alt="Two friends sharing a joyful photo booth pose" fill sizes="(max-width: 600px) 50vw, 30vw" /></figure>
         </div>
       </section>
 
